@@ -1,0 +1,889 @@
+body {
+    margin:0rem auto;
+    padding:0rem;
+}
+
+.box {
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,0);
+  overflow-y: auto;
+  padding: 0rem .625rem .625rem .625rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  text-align: center;
+}
+
+
+
+#logo {
+  padding: 1.25rem 0rem;
+  float: left;
+  clear: float;
+}
+
+#header_logo:hover {
+	opacity: 0.8;
+}
+
+#header_logo {
+	max-width:27.5rem;
+	height:5.5rem;
+}
+
+/* home style */
+#header_home_logo {
+	max-width:88rem;
+	height:16.5rem;
+	position: absolute;
+	margin: 35rem 0 0 2rem;
+	text-align: center;
+}
+#home_icons {
+	width:40rem;
+	height:35rem;
+}
+#home_icons_bundle {
+	display: inline-block;
+	text-align: center;
+}
+
+.home_link1 img:last-child, .home_link2 img:last-child, .home_link3 img:last-child, .home_link4 img:last-child {
+	display:none
+}
+.home_link1:hover img:first-child, .home_link2:hover img:first-child, .home_link3:hover img:first-child, .home_link4:hover img:first-child{
+	display:none
+}
+.home_link1:hover img:last-child, .home_link2:hover img:last-child, .home_link3:hover img:last-child, .home_link4:hover img:last-child{
+	display:inline-block
+}
+
+
+/* home style end */
+
+.pull-me{
+  cursor:pointer;
+  position: static;
+  border-right: .125rem solid #00009B;
+}
+
+.panel {
+  background: rgb(250,250,250);
+  background-size: 10% 10%;
+  display: none;
+  border-bottom: 1px double black;
+}
+
+
+.drop-down {
+  display: inline-block;
+  position: relative;
+  margin: .625rem .625rem;
+}
+
+ul.menu li{
+  display: inline-block;
+  margin: 2.5rem 0rem 1.25rem 0rem;
+  width: 10.625rem;
+  float: left;
+  color: #00009B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  clear: float;
+}
+	#boxfornametag * {
+	box-sizing: border-box;
+	}
+	
+  .name-tag {
+                border: 1px solid red;
+                border-radius: 6px;
+                width: 300px;
+                height: 150px;
+                background: red;
+                font-family: sans-serif;
+ 	          	margin: 0 0 10px 33rem;     
+            }
+            
+            .name-tag h1 {
+                color: white;
+                text-align: center;
+                height: 25px;
+                margin: 5px 0px 0px 0px;
+                font-size: 20px;
+            }
+            .name-tag p {
+                position: relative;
+                left: 5px;
+                padding: 10px;
+                width: 290px;
+                height: 90px;
+                background: white;
+                font-family: cursive;
+                font-size: 20px;
+                text-align: center;
+            }
+            
+            
+.pull-me a {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+p.drop-down a {
+  color: inherit;
+  font-family: inherit;
+  font-size: 16px;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.active {
+	background-color: rgb(250,250,250);
+	opacity: .5;
+}
+
+
+.content_about {
+  background-size: cover;
+  background-position: center;
+  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  padding: 4.375rem 4.375rem;
+  margin: .625rem .3125rem .625rem .3125rem;
+}
+
+.analysis {
+  text-align: center;
+  color: #00009B;
+ font-family: 'Raleway', sans-serif;    
+  }
+
+.analysis_output {
+	text-align: center;
+	font-size: 1.5rem;
+
+}
+
+#sub_head {
+ font-weight: 600;
+ font-family: 'Raleway', sans-serif;  
+ color: #00009B ;
+ font-size: 3rem;
+ margin: 0rem 0;
+ padding: 3rem 0;
+ line-height: 2.75rem;
+ text-align: center;
+}
+
+#main_head {
+ font-weight: 600;
+ font-family: 'Tangerine', cursive;  
+ color: white;
+ font-size: 9rem;
+ margin: 0rem 0;
+ padding: 3rem 0;
+ line-height: 2.75rem;
+ text-align: center;`
+}
+
+#main_head1 {
+ position: absolute;
+  z-index:5;
+ font-weight: 600;
+ font-family: 'Tangerine', cursive, bold;  
+ color: #00009B;
+ font-size: 9rem;
+ margin: 1 0 0 3rem;
+ padding: 3rem 0 3rem 5rem;
+ line-height: 2.75rem;
+ text-align: center;`
+}
+
+/*#00009B*/
+
+
+footer.container p {
+  font-size = .375rem;
+  text-align = center;
+}
+
+.row container section{
+	display: inline-block;
+    font-family: 'Raleway', italic;	
+    font-size = .625rem;
+}
+
+#paragraph_1{
+  padding: .9375rem 0rem 0rem 0rem;
+  margin: 0rem 0rem 0rem 21.875rem;
+  font-weight: bold;
+  color: white;
+}
+#paragraph_2{
+  margin: 5.625rem 0rem 0rem 21.875rem;
+  font-weight: bold;
+  color: white;
+}
+#paragraph_3{
+  margin: 5.9375rem 0rem 0rem 21.875rem;
+  font-weight: bold;
+  color: white;
+}
+#paragraph_4{
+  margin: 5.625rem 0rem 0rem 21.875rem;
+  font-weight: bold;
+  color: white;
+}
+
+.home_texts p{
+  font-family: 'Raleway', italic;
+}
+
+.home_images {
+	position: absolute;
+}
+
+#img_home_one {
+  height: 3.0625rem;
+  max-width: 3.0625rem;
+  margin: 0rem 0rem 2.5rem 16.25rem;
+}
+#img_home_two {
+  height: 3.75rem;
+  max-width: 4.1875rem;
+  margin: 2.5rem 0rem 2.5rem 15.625rem;
+}
+#img_home_three {
+  height: 2.875rem;
+  max-width: 3.25rem;
+  margin: 2.5rem 0rem 2.5rem 15.9375rem;
+}
+#img_home_four {
+  height: 5.3125rem;
+  max-width: 6.125;
+  margin: 2.5rem 0rem 2.5rem 14.375rem;
+}
+
+.home_search_tag {
+color: #00009B;
+text-transform: none;
+font-family: inherit;
+font-size: inherit;
+text-decoration: none;
+}
+
+.home_border2 {
+	margin: 0 auto;
+	height: 65rem;
+    background-image: url("images/Golf.jpg");	
+    background-size: 100% 53rem;
+	background-repeat: no-repeat;
+}
+
+.home_border3 {
+	margin: 0 auto;
+	width: 100%;
+	height: 65rem;
+    background-image: url("images/wine2.jpg");	
+    background-size: 100% 65rem;
+	background-repeat: no-repeat;
+}
+
+.home_border4 {
+	background-color: rgb(240,240,250);
+}
+
+.home_border5 {
+	margin: 0 auto;
+	width: 100%;
+    background-image: url("images/wine3.jpg");	
+    background-size: 100%;
+	background-repeat: no-repeat;
+}
+.home_border6 {
+	margin: 0 auto;
+	width: 100%;
+    background-image: url("images/house_scene2.jpg");	
+    background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.about_border {
+	border-style: outset;
+	margin: auto;
+	width: 100%;
+    opacity: 0.15;	
+    position: absolute;
+    z-index: -5;
+    left: 0;
+    height: 138%;
+}
+
+div.ng-mouseover{
+	size: 120%;
+}
+
+.textbook_border {
+	border-style: outset;
+	margin: auto;
+	width: 100%;
+    opacity: 0.15;	
+    position: absolute;
+    z-index: -5;
+    left: 0;
+    height: 87%;
+}
+
+
+#tab_image_one {
+	max-width: 100%;
+	max-height: 100%;
+}
+#tab_image_two {
+  	height: 20rem;
+	max-width: 20rem;
+	margin-left: 0.7rem;
+}
+#tab_image_three {	
+	max-width: 100%;
+	max-height: 100%;
+}
+#tab_image_four {
+  	height: 25rem;
+	max-width: 25rem;
+	margin: 1rem;
+}
+
+#defaultOpen {
+    background-color: rgb(38,85,255);
+	margin: 0rem 0rem 0rem 3.75rem;
+}
+
+#tablink_2 {
+    background-color: rgb(255,67,48);
+	margin: 0rem 0rem 0rem 0.3125rem;
+}
+
+#tablink_3 {
+    background-color: rgb(38, 255, 104);
+	margin: 0rem 0rem 0rem 0.3125rem;
+}
+
+
+/* Style the tab buttons */
+.tablink {
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: .875rem 1rem;
+    font-size: 1.25rem;
+    width: 30%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+	opacity: 1;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 3.125rem;
+    text-align: center;
+    height: 23.75rem;
+    width: 90%;
+    margin: 0rem 0rem 0rem 1.25rem;
+}
+
+/* Style each tab content individually */ 
+#Student {
+	background-color: rgba(38,85,255,.3);
+	}
+	
+.Student_content {
+  float: left;
+  text-align: left;
+  margin: .625rem 0rem;
+  padding: .75rem 0rem;
+  font-size: 1.5rem;
+  font-family: 'Raleway', bold;
+  color: white; 
+}
+.Student_content_2 {
+  float: left;
+  text-align: left;
+  margin: .625rem 0rem;
+  padding: 1.25rem 0rem;
+  font-size: 1.5rem;
+  font-family: 'Raleway', bold;
+  }
+
+.About_content {
+  text-align: left;
+  margin: .625rem 1rem;
+  padding: 1.25rem 1rem;
+  font-size: 1.25rem;
+  font-family: 'Raleway', sans-serif, bold;
+  color: black;
+  z-index: 1;
+  text-align: center;  
+}
+
+.main_content {
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Tangerine', sans-serif, bold;
+  color: white;
+  z-index: 1;
+}
+.main_content2 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Playball', sans-serif, cursive;
+  z-index: 1;
+}
+
+	
+#Parent {
+	background-color: rgba(255,67,48,.3);
+	}
+#Instructor {
+	background-color: rgba(38, 255, 104, .3);
+	}
+
+
+
+
+form {
+    font-size: .75rem;
+    font-family: Verdana, Arial, Sans-Serif;
+    display: inline-block;
+}
+#messages {
+    font-size: .875rem;
+	font-family: Garamond, Times, Serif;
+}
+#search_box {
+	float: left;
+	text-align: center;
+	clear: float;
+	padding: 0rem 0rem 0rem 2rem;
+}
+
+.header_txt {
+ padding: .9375rem;
+}
+
+.header_txt img {
+   display: inline-block;
+}
+
+.header_txt h1 {
+   display: inline-block;
+}
+
+
+.main h2 {
+ background-color: white;
+ color: rgba(0,0,0,.8) ;
+ font-size: 1.25rem;
+ margin: 0 0 2.5rem 0;
+ padding: 1.25rem 0;
+ text-align: center;
+}
+
+
+.thumbnail {
+ border: 0rem;
+ position: relative;
+ padding: 3.125rem;
+   border-radius: 0;
+   margin-bottom: 3.125rem;
+   text-align: center;
+   
+}
+
+.thumbnail img {
+   margin-top: .625rem;
+   margin-bottom: 1.875rem;
+   max-width: 30%;
+   max-height: 30%;
+}
+
+.footer_end {
+	text-align: right;
+	color: white;
+	background-color: rgba(0,0,0,.6);
+	text-transform: none;
+    font-family: 'Raleway', sans-serif;
+}
+.home_search_tag_2 {
+color: white;
+text-transform: none;
+font-family: inherit;
+font-size: inherit;
+text-decoration: none;
+}
+
+#buttons_pay {
+text-align: center;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full max-width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid black; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and max-width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: rgb(38,85,255);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: rgba(38,85,255,.5);
+}
+
+/* Add a background color and some padding around the form */
+.container_box {
+    border-radius: 5px;
+    background-color: rgba(38,85,255,.03);
+    padding: 0rem 1rem 1rem 1rem;
+    text-align: center;
+}
+
+
+#searches_box {
+	display: inline-block;
+	position: inline-block;
+}
+
+
+#galleria img {
+	width: 100%;
+	height: 60rem;
+	background: #000 
+}
+
+
+.container2 {
+   margin-bottom: 30px;
+}
+
+.header2 h1 {
+   color: #000;
+   font-size: 30px;
+   font-weight: bold;
+   text-transform: lowercase;
+}
+
+.card2 {
+   overflow: hidden;
+   position: relative;
+   vertical-align: top;
+   width: 23%;
+   display: inline-block;
+   margin: 0 2px;
+   height: 45rem;
+}
+
+.title2 {
+   font-family: 'Open Sans', sans-serif;
+   background-color: #ebebfa;
+   color: #00009B;
+   font-size: 24px;
+   text-align: center;
+   font-weight: bold;
+   margin-bottom: 1px;
+}
+
+.developer {
+   font-family: 'Raleway', sans-serif;  
+   color: #00009B;
+   font-size: 14px;
+}
+
+.price2 {
+   color: #000;
+   font-size: 10px;
+   font-weight: 700;
+   bottom: 130px;
+   right: 0px;
+   line-height: 60px;
+   width: 60px;
+   height: 60px;
+   position: static;
+   background: #fff;
+   border-bottom:3px solid #00009B;
+   text-align: center;
+}
+
+.icon {
+	height: 20rem;
+	width: 18.5rem;
+}
+
+.btn {
+   background: transparent;
+   color: #000;
+   border: 1px solid #000;
+   font-size: 14px;
+   font-weight: 200;
+   padding:2px 10px;
+   border-radius: 2px;
+}
+.btn:hover {
+   color: #00009B;
+   background: rgba(38,85,255,.04);
+   transition: background 500ms;
+   border: 1px solid #00009B;
+}
+.btn-downloaded {
+ background-color: #ababab ;
+ color: #3f3f3f ;
+}
+
+.bookimg, .bookimg img {
+ height: 8rem;
+ width: 6rem;
+ 
+}
+
+.bookimg2, .bookimg2 img {
+ height: 15rem;
+ width: 15rem;
+ 
+}
+
+.center {
+ margin: 1rem 36rem; 
+ text-align: center;
+}
+
+
+
+
+
+
+
+#countdown-wrap {
+  width: 100%;
+  //border: 1px solid black;
+  padding: 20px;
+  font-family: arial;
+  max-width: 650px;
+  margin: 150px auto 300px;
+}
+
+#goal {
+  font-size: 48px;
+  text-align: right;
+  color: black;
+  @media only screen and (max-width : 640px) {
+    text-align: center;  
+  }
+  
+}
+
+#glass {
+  width: 100%;
+  height: 20px;
+  background: #c7c7c7;
+  border-radius: 10px;
+  float: left;
+  overflow: hidden;
+}
+
+#progress {
+  float: left;
+  width: 10.0%;
+  height: 20px;
+  background: #FF5D50;
+  z-index: 333;
+  //border-radius: 5px;
+}
+
+.goal-stat {
+  width: 25%;
+  //height: 30px;
+  padding: 10px;
+  float: left;
+  margin: 0;
+  color: black;
+  
+  @media only screen and (max-width : 640px) {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+.goal-number, .goal-label {
+  display: block;
+}
+
+.goal-number {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+	.box {
+	  max-width: 100%;	
+	  padding: 0;
+		  position: initial
+
+	}
+	
+	#header_logo {
+		max-width:27.5rem;
+		padding: 0;
+	}
+		
+	
+
+	.pull-me{
+		border-right: 0;
+  		border-bottom: 1.5px solid #00009B;
+		  position: initial
+
+	}
+	
+	.drop-down {
+		  position: initial
+	}
+	
+	ul.menu li{
+		max-width: 14rem;
+		margin: 6px 0 0 0;
+		padding: 0 5rem 0 0;
+		color: #00009B;
+		text-align: center;
+	}
+	
+	#logo {
+		float: none;
+	}
+
+	.home_border2 {
+		max-width: 100%;
+		position: relative;
+	}
+	
+	.horiz_line {
+		margin: 0 0 30rem 0;
+	}
+	
+	.home_border {
+		max-width: 100%;
+		margin: 0;
+	}
+		
+	.textbook_border {
+		max-width: 100%;
+	}
+	
+	.tablink {
+	    max-width: 30%;
+	}
+	
+	.tablink {
+	    max-width: 30%;
+	    padding: 0;
+	}
+	#defaultOpen {
+		margin: 0;
+	}
+	#tablink_2 {
+	margin: 0;
+	}
+	#tablink_3 {
+	margin: 0;
+	}
+
+	.Student_content{
+       margin: 0;
+  	 padding: 0;
+	}
+
+	.Student_content_2 {
+	       margin: 0;
+  	 padding: 0;
+
+	}
+
+	.tabcontent {
+	    max-width: 100%;
+	    padding: 0rem;
+	    margin: 0;
+
+	}
+	
+	.about_border {
+		max-height: 100%;
+		position: relative;
+	}	
+	
+	.textbook_border {
+		max-height: 100%;
+		position: relative;
+	}	
+
+	.card2 {
+		max-width: 100%;
+		max-height: 100%;
+	   overflow: none;
+	   position: none;	
+	}
+	
+	* {
+          font-size: 1rem;
+	}
+	
+	.center {
+	 margin: 0; 
+	}
+	
+	#paragraph_1, #paragraph_2, #paragraph_3, #paragraph_4{
+          margin: 0.5rem 0.5rem;
+          padding: 0.5rem 0 0 2rem;
+	}
+	
+	 #img_home_one, #img_home_two, #img_home_three, #img_home_four {
+	     display: none;
+	 }
+	
+	  #tab_image_one,  #tab_image_two, #tab_image_three {	
+	 	  display: none;
+	 }
+}
+
