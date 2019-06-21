@@ -1,16 +1,18 @@
 app.controller('MainController', ['$scope', function($scope) {
   $scope.apps = [ 
 	  { 
-	    icon: 'images/obedience2.jpg', 
+	    icon: 'images/obedience2.jpeg', 
 	    title: 'Obedience', 
 	    developer: 'Memorial Church, Cambridge, MA.', 
-	    link: " "
+	    link: " ",
+	    price: 10
 	  }, 
 	  { 
 	    icon: 'images/pearl2.jpg', 
 	    title: 'Loyalty', 
 	    developer: 'Arch Iron Gate, New Haven, CT.', 
-	    link: " "
+	    link: " ",
+	    price: Lo
 	  },
 	  {
 	    icon: 'images/disclosure.png',
