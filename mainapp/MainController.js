@@ -1,7 +1,7 @@
 app.controller('MainController', ['$scope', function($scope) {
   $scope.apps = [ 
 	  { 
-	    icon: 'images/obedience2.jpg', 
+	    icon: 'images/obedience2.png', 
 	    title: 'Obedience', 
 	    developer: 'Memorial Church, Cambridge, MA.', 
 	    link: " "
