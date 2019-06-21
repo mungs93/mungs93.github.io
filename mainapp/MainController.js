@@ -2,33 +2,39 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.apps = [ 
 	  { 
 	    icon: 'images/Harvard.jpg', 
-	    title: 'Harvard', 
+	    title: 'Obedience', 
 	    developer: 'Memorial Church, Cambridge, MA.', 
-	    link: "T_Search.html"
+	    link: " "
 	  }, 
 	  { 
 	    icon: 'images/Yale2.jpg', 
-	    title: 'Yale', 
+	    title: 'Loyalty', 
 	    developer: 'Arch Iron Gate, New Haven, CT.', 
-	    link: "T_Search.html"	    
+	    link: " "    
 	  },
 	  {
 	    icon: 'images/Stanford2.jpg',
-	    title: 'Stanford',
+	    title: 'Disclosure',
 	    developer: 'Memorial Church, Stanford, CA.',
-	    link: "T_Search.html"	    
+	    link: " "   
 	  },
 	  {
 	    icon: 'images/Penn2.jpg',
-	    title: 'Penn',
+	    title: 'Confidentiality',
 	    developer: 'College Hall, Philadelphia, PA.',
-	    link: "T_Search.html"	    
+	    link: " "
+	  },
+	   {
+	    icon: 'images/Penn2.jpg',
+	    title: 'Accounting',
+	    developer: 'College Hall, Philadelphia, PA.',
+	    link: " "   
 	  },
 	  {
 	    icon: 'images/All2.jpg',
-	    title: 'More Colleges',
+	    title: 'Reasonable Care and Diligence',
 	    developer: 'Silverman Hall, Philadelphia, PA',
-	    link: "T_Search.html"
+	    link: " "
 	  }
 	];
 }]);

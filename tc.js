@@ -19,9 +19,11 @@ $(document).ready(function(){
     $('.pull-me').mouseenter(function(){ 
         $('.panel').slideDown('slow');
     });
-    $('.box').mouseleave(function(){ 
+    $('.box2').mouseleave(function(){ 
         $('.panel').slideUp('slow');
     });    
+
+
 
 	var app2 = angular.module('app2', []);    
     angular.bootstrap(document.getElementById("new_ng_app"), ['app2']);
