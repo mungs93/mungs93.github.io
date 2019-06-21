@@ -430,14 +430,20 @@ div.ng-mouseover{
   }
 
 .About_content {
-  text-align: left;
   margin: .625rem 1rem;
   padding: 1.25rem 1rem;
   font-size: 1.25rem;
-  font-family: 'Raleway', sans-serif, bold;
+  font-family: 'Garamond', sans-serif, bold;
   color: black;
   z-index: 1;
   text-align: center;  
+}
+
+.About_bullet {
+  font-family: 'Garamond', sans-serif, bold;
+  font-size: 1.25rem;
+    margin: .625rem 1rem;
+ padding: 1.25rem 1rem;
 }
 
 .main_content {
@@ -757,6 +763,14 @@ input[type=submit]:hover {
 
 
 @media only screen and (max-width: 1000px) {
+	#main_head1, #main_head {
+	  font-size: 3rem;	
+	}	
+	
+	.name-tag {
+	margin: 0;
+	}
+	
 	.box {
 	  max-width: 100%;	
 	  padding: 0;
@@ -765,11 +779,11 @@ input[type=submit]:hover {
 	}
 	
 	#header_logo {
-		max-width:27.5rem;
+		max-width:24.5rem;
 		padding: 0;
 	}
 		
-	
+
 
 	.pull-me{
 		border-right: 0;
