@@ -27,6 +27,14 @@ body {
   text-align: center;
 }
 
+.box_property {
+  box-sizing: border-box;
+  overflow-y: auto;  
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
 
 .box_people1 {
   display: inline;
@@ -490,7 +498,7 @@ div.ng-mouseover{
 
 .About_bullet {
   font-family: 'Times New Roman', sans-serif, bold;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin: .625rem 1rem;
   padding: 1.25rem 1rem;
 }
