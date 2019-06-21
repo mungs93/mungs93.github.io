@@ -28,6 +28,23 @@ body {
 }
 
 
+.box_people1 {
+  display: inline;
+  overflow-y: auto;  
+  position: absolute;
+
+
+}
+
+.box_people2 {
+  box-sizing: border-box;
+  padding: 0 0 0 20rem; 
+  top: 0;
+  width: 100%;
+
+}
+
+
 #logo {
   padding: .4rem 0rem; 
   float: left;
@@ -193,6 +210,24 @@ p.drop-down a {
  margin: 0rem 0;
  padding: 2rem 0;
  line-height: 2.75rem;
+ text-align: center;
+}
+
+#sub_head2 {
+ font-weight: 600;
+ font-family: 'Palatino', sans-serif;
+ font-size: 2rem;
+ margin: 0rem 0;
+ padding: .5rem 2rem;
+ line-height: 1rem;
+}
+
+#sub_head3 {
+ font-weight: 600;
+ font-family: 'Palatino', sans-serif;
+ font-size: 2rem;
+ margin: 0rem 0;
+ padding: 0 2rem;
  text-align: center;
 }
 
@@ -455,14 +490,6 @@ div.ng-mouseover{
 
 .About_bullet {
   font-family: 'Times New Roman', sans-serif, bold;
-  font-size: 1.3rem;
-  margin: .625rem 1rem;
-  padding: 1.25rem 1rem;
-}
-
-.About_bullet2 {
-  font-family: 'Times New Roman', sans-serif, bold;
-  text-align: center;
   font-size: 1.3rem;
   margin: .625rem 1rem;
   padding: 1.25rem 1rem;

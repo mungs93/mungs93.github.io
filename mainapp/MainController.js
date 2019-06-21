@@ -5,42 +5,42 @@ app.controller('MainController', ['$scope', function($scope) {
 	    title: 'Obedience', 
 	    developer: 'Memorial Church, Cambridge, MA.', 
 	    link: " ",
-	    price: "1"
+	    price: 100
 	  }, 
 	  { 
 	    icon: 'images/pearl2.jpg', 
 	    title: 'Loyalty', 
 	    developer: 'Arch Iron Gate, New Haven, CT.', 
 	    link: " ",
-	    price: "2"    
+	    price: 100
 	  },
 	  {
 	    icon: 'images/disclosure.png',
 	    title: 'Disclosure',
 	    developer: 'Memorial Church, Stanford, CA.',
 	    link: " ",
-	    price: "Di"   
+	    price: 100%
 	  },
 	  {
 	    icon: 'images/confidential.png',
 	    title: 'Confidentiality',
 	    developer: 'College Hall, Philadelphia, PA.',
 	    link: " ",
-	    price: "Co"
+	    price: 100%
 	  },
 	   {
 	    icon: 'images/accounting.jpg',
 	    title: 'Accounting',
 	    developer: 'College Hall, Philadelphia, PA.',
 	    link: " ",
-	    price: "Ac"   
+	    price: 100% 
 	  },
 	  {
-	    icon: 'images/All2.jpg',
+	    icon: 'images/reasonable.png',
 	    title: 'Reasonable Care and Diligence',
 	    developer: 'Silverman Hall, Philadelphia, PA',
 	    link: " ",
-	    price: "Re"
+	    price: 100%
 	  }
 	];
 }]);
