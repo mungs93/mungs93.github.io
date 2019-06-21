@@ -4,15 +4,13 @@ app.controller('MainController', ['$scope', function($scope) {
 	    icon: 'images/obedience2.jpeg', 
 	    title: 'Obedience', 
 	    developer: 'Memorial Church, Cambridge, MA.', 
-	    link: " ",
-	    price: 10
+	    link: " "
 	  }, 
 	  { 
 	    icon: 'images/pearl2.jpg', 
 	    title: 'Loyalty', 
 	    developer: 'Arch Iron Gate, New Haven, CT.', 
-	    link: " ",
-	    price: Lo
+	    link: " "
 	  },
 	  {
 	    icon: 'images/disclosure.png',

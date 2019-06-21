@@ -12,9 +12,9 @@
 .card {
    overflow: hidden;
    position: relative;
-   max-width: 19%;
+   max-width: 33%;
    display: inline-block;
-   margin: 0 0 0 .6rem;
+   margin: 0 6 0 6rem;
    vertical-align: top;
    opacity: 0.8;
 }
