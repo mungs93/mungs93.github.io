@@ -460,17 +460,13 @@ div.ng-mouseover{
   padding: 1.25rem 1rem;
 }
 
-
-  margin: 1.5rem 0rem 0rem 0rem;
-  width: 10.625rem;
-  float: left;
-  color: #00009B;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.25rem;
-  text-transform: uppercase;
-  clear: float;
+.About_bullet2 {
+  font-family: 'Times New Roman', sans-serif, bold;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: .625rem 1rem;
+  padding: 1.25rem 1rem;
 }
-
 
 
 .main_content {
@@ -605,7 +601,7 @@ input[type=submit]:hover {
 .container_box {
     border-radius: 5px;
     background-color: rgba(38,85,255,.03);
-    padding: 0rem 5rem 1rem 5rem;
+    padding: 0rem 1rem 1rem 1rem;
     text-align: center;
 }
 
