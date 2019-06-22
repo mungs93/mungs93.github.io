@@ -132,11 +132,11 @@ body {
 ul.menu li{
   display: inline-block;
   margin: 1.5rem 0rem 0rem 0rem;
-  width: 10.625rem;
+  width: 9.125rem;
   float: left;
   color: #00009B;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   clear: float;
 }
