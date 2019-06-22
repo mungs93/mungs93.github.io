@@ -39,20 +39,7 @@
    font-weight: bold;
 }
 
-.price {
-   color: #000;
-   font-size: 14px;
-   font-weight: 700;
-   bottom: 100px;
-   right: 10px;
-   line-height: 60px;
-   width: 60px;
-   height: 60px;
-   position: absolute;
-   background: #fff;
-   border-bottom:5px solid #000;
-   text-align: center;
-}
+
 
 .btn {
    background: transparent;

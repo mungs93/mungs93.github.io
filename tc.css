@@ -142,8 +142,6 @@ ul.menu li{
 }
 	#boxfornametag * {
 	box-sizing: border-box;
-
-    text-align: center;
 	}
 	
   .name-tag {
@@ -153,7 +151,7 @@ ul.menu li{
                 height: 150px;
                 background: red;
                 font-family: sans-serif;
- 	          	margin: 0 0 10px 33rem;     
+ 	          	margin: 0 0 0 35rem;     
             }
             
             .name-tag h1 {
@@ -410,8 +408,8 @@ div.ng-mouseover{
 
 
 #tab_image_one {
-	max-width: 60%;
-	max-height: 70%;
+	max-width: 40%;
+	max-height: 50%;
 }
 #tab_image_two {
   	height: 20rem;
@@ -468,7 +466,7 @@ div.ng-mouseover{
     display: none;
     padding: 2rem 3rem 3rem 3rem;
     text-align: center;
-    height: 32rem;
+    height: 26rem;
     width: 90%;
     margin: 0rem 0rem 0rem 1.25rem;
 }
