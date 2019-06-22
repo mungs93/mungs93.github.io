@@ -410,8 +410,8 @@ div.ng-mouseover{
 
 
 #tab_image_one {
-	max-width: 80%;
-	max-height: 90%;
+	max-width: 60%;
+	max-height: 70%;
 }
 #tab_image_two {
   	height: 20rem;
@@ -466,9 +466,9 @@ div.ng-mouseover{
 .tabcontent {
     color: black;
     display: none;
-    padding: 2rem 3rem 5rem 3rem;
+    padding: 2rem 3rem 3rem 3rem;
     text-align: center;
-    height: 25rem;
+    height: 32rem;
     width: 90%;
     margin: 0rem 0rem 0rem 1.25rem;
 }
