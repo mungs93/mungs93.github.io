@@ -852,8 +852,25 @@ input[type=submit]:hover {
 }
 
 
+.main1 h2 {
+ background-color: #DDDDDD ;
+ color: #999999 ;
+ font-size: 1.25rem;
+ margin: 0 0 2.5rem 0;
+ padding: 1.25rem 0;
+ text-align: center;
+}
 
+footer.container1 p {
+  font-size = .375rem;
+  text-align = center;
+}
 
+.row container1 section{
+	display: inline-block;
+    font-family: 'Raleway', italic;	
+    font-size = .625rem;
+}
 
 
 
