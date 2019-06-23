@@ -778,9 +778,12 @@ input[type=submit]:hover {
   font-size: 48px;
   text-align: right;
   color: black;
+  
+/*  
   @media only screen and (max-width : 640px) {
     text-align: center;  
   }
+  */
   
 }
 
@@ -837,10 +840,13 @@ input[type=submit]:hover {
   margin: 0;
   color: black;
   
+/*
   @media only screen and (max-width : 640px) {
     width: 50%;
     text-align: center;
   }
+*/
+
 }
 
 
@@ -853,7 +859,7 @@ input[type=submit]:hover {
 }
 
 
-
+/*
 @media only screen and (max-width: 1000px) {
 	#main_head1, #main_head {
 	  font-size: 3rem;	
@@ -992,4 +998,4 @@ input[type=submit]:hover {
 	 	  display: none;
 	 }
 }
-
+*/
