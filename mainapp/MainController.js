@@ -4,7 +4,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	    icon: 'images/obedience2.png', 
 	    title: 'Obedience', 
 	    developer: 'Memorial Church, Cambridge, MA.', 
-	    link: " "
+	    link: "images/texas.png"
 	  }, 
 	  { 
 	    icon: 'images/pearl2.jpg', 
