@@ -769,7 +769,7 @@ input[type=submit]:hover {
   padding: 20px;
   font-family: arial;
   max-width: 650px;
-  margin: 150px auto 300px;
+  margin: 150px auto 100px;
 }
 
 #goal {
@@ -793,17 +793,44 @@ input[type=submit]:hover {
 
 #progress {
   float: left;
-  width: 10.0%;
+  width: 25.0%;
   height: 20px;
-  background: #FF5D50;
+  background: #23ba41;
+  z-index: 333;
+  //border-radius: 5px;
+}
+
+#progress2 {
+  float: left;
+  width: 50.0%;
+  height: 20px;
+  background: #23ba41;
+  z-index: 333;
+  //border-radius: 5px;
+}
+
+#progress3 {
+  float: left;
+  width: 75.0%;
+  height: 20px;
+  background: #23ba41;
+  z-index: 333;
+  //border-radius: 5px;
+}
+
+#progress4 {
+  float: left;
+  width: 100.0%;
+  height: 20px;
+  background: #23ba41;
   z-index: 333;
   //border-radius: 5px;
 }
 
 .goal-stat {
-  width: 25%;
+  width: 24%;
   //height: 30px;
-  padding: 10px;
+  padding: 2px;
   float: left;
   margin: 0;
   color: black;
