@@ -438,7 +438,7 @@ div.ng-mouseover{
 }
 
 #tablink_3 {
-    background-color: rgb(38, 255, 104);
+    background-color: #23ba41;
 	margin: 0rem 0rem 0rem 0.3125rem;
 }
 
@@ -453,7 +453,7 @@ div.ng-mouseover{
     font-size: 1.25rem;
     width: 30%;
     display: inline-block;
-    opacity: 0.5;
+    opacity: .9;
 }
 
 /* Change background color of buttons on hover */
@@ -474,8 +474,17 @@ div.ng-mouseover{
 
 /* Style each tab content individually */ 
 #Student {
-	background-color: rgba(38,85,255,.3);
+	background-color: rgba(38,85,255,.6);
 	}
+#Parent {
+	background-color: rgba(255,67,48, .6);
+	}
+#Instructor {
+	background-color: #23ba41;
+	opacity: 0.6;
+	}
+	
+		
 	
 .Student_content {
   float: left;
@@ -527,13 +536,6 @@ div.ng-mouseover{
   z-index: 1;
 }
 
-	
-#Parent {
-	background-color: rgba(255,67,48,.3);
-	}
-#Instructor {
-	background-color: rgba(38, 255, 104, .3);
-	}
 
 
 
