@@ -252,7 +252,7 @@ p.drop-down a {
  font-weight: 600;
  font-family: 'Tangerine', cursive;  
  color: white;
- font-size: 7rem;
+ font-size: 5rem;
  margin: 0rem 0;
  padding: 3rem 0;
  line-height: 2.75rem;
@@ -453,7 +453,7 @@ div.ng-mouseover{
     font-size: 1.25rem;
     width: 30%;
     display: inline-block;
-    opacity: .9;
+    opacity: .7;
 }
 
 /* Change background color of buttons on hover */
