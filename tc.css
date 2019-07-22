@@ -244,6 +244,15 @@ p.drop-down a {
  text-align: center;
 }
 
+#sub_head4 {
+ font-weight: 600;
+ font-family: 'Palatino', sans-serif;
+ font-size: 2rem;
+ margin: 0rem 0;
+ padding: 0 2rem;
+ color: blue;
+}
+
 #main_head {
  font-weight: 600;
  font-family: 'Tangerine', cursive;  
